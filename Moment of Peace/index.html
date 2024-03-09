@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Moment of Peace</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="main_container">
+            <div class="moment_container">
+                <p class="heading">A Moment of Peace</p>
+                <p class="subhead">Turn off your phone, put on your headphones</p>
+                <p class="subhead">and take a moment for yourself.</p>
+                <hr>
+                <h3 class="lasthead">How long would you like</h3>
+                <h3 class="lasthead">your moment to be?</h3>
+                <div class="time_box">
+                    <button class="but_class" onclick="firstfun()"><p>20</p><p>Seconds</p></button>
+                    <button class="but_class" onclick="secondfun()"><p>30</p><p>Seconds</p></button>
+                    <button class="but_class" onclick="thirdfun()"><p>40</p><p>Seconds</p></button>
+                    <button class="but_class" onclick="forthfun()"><p>1</p><p>Minute</p></button>
+                </div>
+                <div class="msg">
+                    <p id="second"></p>
+                    <p id="message"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- javaScript file connection -->
+    <script src="./script.js"></script>
+</body>
+</html>
